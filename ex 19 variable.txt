@@ -1,0 +1,18 @@
+Algorithme ex_19
+	variable a,b,i,j,k,h,c :entier;
+Début
+	ecrireln("Calcul PGCG");
+	ecrire("Inserez A :");
+	lire(a);
+	ecrire("Inserez B :");
+	lire(b);
+		pour i de 1 à faire 
+			K=a%i;
+			h=b%i;
+				si k=0 et h=0 alors
+					c=i;
+				finsi
+		finpour
+	ecrireln("PGCD(",a,",",b,")=",c);
+Fin
+
